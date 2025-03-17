@@ -29,7 +29,7 @@ def check_prime(number):
             return False
     return True
 
-pattern = "56**3"
+pattern = input("Enter The Pattern :>>>   ")
 if "*" not in pattern:
     print("This pattern has not 8 family prime numbers")
 else:
