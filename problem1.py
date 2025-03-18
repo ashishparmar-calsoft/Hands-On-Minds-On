@@ -44,7 +44,7 @@ def find_first_repeating_digit_number(numbers):
     return None
 
 
-if len(prime_numbers)>7:
+if len(prime_numbers)>5:
     prime_numbers.sort()
     print(prime_numbers)
     print(find_first_repeating_digit_number(prime_numbers))
